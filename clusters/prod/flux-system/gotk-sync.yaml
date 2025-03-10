@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: https://github.com/luissimas/incus-sidecar.git
+  url: ssh://git@github.com/luissimas/incus-sidecar
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
